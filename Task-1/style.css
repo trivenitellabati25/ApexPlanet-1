@@ -1,0 +1,45 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: hsl(193, 35%, 60%);
+  padding: 20px;
+}
+
+h1 {
+  color: #df2108;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 200px; /* ✅ Resized and centered image */
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #27ae60;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #219150; /* Optional: Add hover effect */
+} 
+.content {
+  text-align: center;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;        /* Center horizontally */
+  padding: 20px;
+  background-color: #f1e9e9ec; /* Optional: Light background */
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);     /* Optional: Soft shadow */
+}
+
